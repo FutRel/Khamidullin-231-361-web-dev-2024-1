@@ -1,0 +1,72 @@
+﻿body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+}
+
+/* Шапка */
+header {
+    background-color: #8850BD;
+    color: #fff;
+    padding: 21px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: #e6e6fa;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+    table th, table td {
+        padding: 10px;
+        border: 1px solid #8850BD;
+        background-color: #ece4f5;
+    }
+
+    table th {
+        background-color: #ba9ad9;
+    }
+
+/* Футер */
+footer {
+    background-color: #56307a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
