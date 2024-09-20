@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма обратной связи</title>
+    <link rel="stylesheet" href="StyleSheet2.css">
+</head>
+<body>
+    <div class="contact-form-container">
+        <h2>Форма обратной связи</h2>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="fio">ФИО:</label>
+            <input type="text" id="fio" name="fio" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label>Откуда узнали о нас:</label>
+            <div class="radio-group">
+                <input type="radio" id="internet" name="source" value="Интернет" required>
+                <label for="internet">Интернет</label>
+
+                <input type="radio" id="friends" name="source" value="Друзья" required>
+                <label for="friends">Друзья</label>
+            </div>
+
+            <label for="type">Тип обращения:</label>
+            <select id="type" name="type">
+                <option value="complaint">Жалоба</option>
+                <option value="suggestion">Предложение</option>
+            </select>
+
+            <label for="message">Текст сообщения:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <label for="file">Вложения:</label>
+            <input type="file" id="file" name="file">
+
+            <label for="consent">
+                <input type="checkbox" id="consent" name="consent" required>
+                Даю согласие на обработку персональных данных
+            </label>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>

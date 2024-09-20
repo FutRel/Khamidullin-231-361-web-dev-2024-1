@@ -1,0 +1,82 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('background-image.jpg') no-repeat center center/cover;
+    font-size: 16px;
+}
+
+.contact-form-container,
+.auth-form-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+    .contact-form-container h2,
+    .auth-form-container h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.radio-group {
+    margin-bottom: 15px;
+}
+
+    .radio-group label {
+        margin-right: 15px;
+    }
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+.auth-form-container {
+    width: 300px;
+    text-align: center;
+}
